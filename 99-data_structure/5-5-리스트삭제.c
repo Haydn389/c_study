@@ -6,7 +6,7 @@ struct tfield{
     char name[20];
     char tel[20];
     struct tfield *pointer;
-}*head;
+}*head; //바로 선언
 // struct tfield *head; //위와 동일한 문장
 struct tfield *talloc(void);
 

@@ -56,7 +56,7 @@ void genlist(void){
     head=NULL;
     while(p=talloc(),scanf("%s %s",p->name,p->tel)!=EOF){
         p->pointer=head;
-        head=p;
+        head=p; 
     }
 }
 
